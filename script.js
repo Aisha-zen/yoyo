@@ -35,3 +35,9 @@ closeBtn.addEventListener('click', function(){
 close.style.display='none';
 });
 
+const open =document.getElementById('open');
+const modal_container =document.getElementById('modal_container');
+
+open.addEventListener('click', function(){
+   modal_container.classList.add('show');
+});
