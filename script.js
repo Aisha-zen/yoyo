@@ -16,7 +16,7 @@ function searchPage() {
 
   
   if (searchTerm === "spicy") {
-      window.location.href = "/searchR.html";
+      window.location.href = "/SearchR.html";
   } else {
      window.location.href = "/notfound.html";
   }
